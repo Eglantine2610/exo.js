@@ -1,3 +1,42 @@
-.colorRed{
+header {
+    background-color: rgb(173, 112, 143);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+body {
+    margin : auto;
+    width: 900px;
+}
+
+#main-title a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.text-article p:first-child {
+    font-weight: bold;
+}
+
+.text-article {
+    margin: 20px 25px;
+    padding: 20px 25px;
+    border: 2px solid darkblue;
+    text-align: center;
+}
+
+footer {
+    background-color: cornflowerblue;
+    margin: 50px 25px;
+    padding: 50px 25px;
+    color: blueviolet;
+}
+
+footer a {
+    text-decoration: none;
     color: red;
 }
+
+footer{}
